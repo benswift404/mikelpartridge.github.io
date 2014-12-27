@@ -1,0 +1,170 @@
+/***************
+BODY: background
+***************/
+body {
+  background-color: lightgreen;
+  background-image: url("gd.png");
+  background-size: 100%;
+  text-align: center;
+  color: white;
+}
+
+/***************
+NAVBAR
+***************/
+nav {
+  padding-top: 20px;
+}
+
+nav li {
+  display: inline;
+  margin: 10px;
+  font-size: 25px;
+}
+
+nav a {
+  text-decoration: none;
+}
+nav a:visited {
+  text-decoration: none;
+  color: white;
+}
+nav a:hover {
+  color: orange;
+}
+
+
+
+/***************
+CONTENT: Jumbo
+***************/
+ #jumbo {
+  font-size: 50px;
+  margin-left: 40px;
+  padding-top: 50px;
+  font-family: "Comic Sans MS";
+  -webkit-animation: colors 10s;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation: colors 10s;
+  -moz-animation-iteration-count: infinite;
+  -o-animation: colors 10s;
+  -o-animation-iteration-count: infinite;
+  animation: colors 10s;
+  animation-iteration-count: infinite;
+}
+#bar {
+
+}
+
+#text {
+  font-size: 30px;
+  margin-left: 40px;
+  font-family: "Comic Sans MS";
+}
+.text2 {
+  font-size: 30px;
+  margin-left: 40px;
+  font-family: "Comic Sans MS";
+  padding-bottom: 10px;
+  padding-top: 50px;
+}
+
+.text2 a {
+  text-decoration: none;
+  color: gray;
+}
+
+.text2 a:hover {
+  color: orange;
+}
+#text3 {
+  font-family: "Comic Sans MS";
+  font-size: 25px;
+  padding-top: 50px;
+}
+
+.text4 li {
+  list-style: none;
+  margin-right: 10px;
+  font-size: 25px;
+}
+
+.text4 {
+  font-family: "Comic Sans MS";
+  font-size: 25px;
+  margin-left: 40px;
+}
+.text4 a {
+  text-decoration: none;
+  color: white;
+}
+
+.text4 a:hover {
+  color: orange;
+}
+/***************
+FOOTER
+***************/
+#foot {
+  margin-left: 40px;
+  font-size: 15px;
+}
+
+/***************
+Keyframes
+***************/
+@-webkit-keyframes colors {
+  0% {
+    color: red;
+  } 25% {
+    color: orange;
+  } 50% {
+    color: yellow;
+  } 75% {
+    color: white;
+  } 100% {
+    color: red;
+  }
+}
+
+@-moz-keyframes colors {
+  0% {
+    color: red;
+  } 25% {
+    color: orange;
+  } 50% {
+    color: yellow;
+  } 75% {
+    color: white;
+  } 100% {
+    color: red;
+  }
+}
+
+@-o-keyframes colors {
+  0% {
+    color: red;
+  } 25% {
+    color: orange;
+  } 50% {
+    color: yellow;
+  } 75% {
+    color: white;
+  } 100% {
+    color: red;
+  }
+}
+
+@keyframes colors {
+  0% {
+    color: red;
+  } 25% {
+    color: orange;
+  } 50% {
+    color: yellow;
+  } 75% {
+    color: white;
+  } 100% {
+    color: red;
+  }
+}
